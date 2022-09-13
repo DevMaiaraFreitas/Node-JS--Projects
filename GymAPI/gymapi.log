@@ -1,0 +1,70 @@
+2022-09-10T18:57:38.841Z [gymapi] error POST  - Cannot read properties of undefined (reading 'name')
+2022-09-10T20:52:50.407Z [gymapi] error POST  - Cannot read properties of undefined (reading 'name')
+2022-09-10T20:57:49.109Z [gymapi] error POST  - Cannot read properties of undefined (reading 'name')
+2022-09-10T21:04:17.595Z [gymapi] error POST  - Cannot read properties of undefined (reading 'name')
+2022-09-10T21:05:51.023Z [gymapi] error POST  - Cannot read properties of undefined (reading 'name')
+2022-09-10T21:08:53.990Z [gymapi] info  POST/student - {}
+2022-09-10T21:14:17.438Z [gymapi] info  POST/student - {}
+2022-09-10T21:14:36.882Z [gymapi] info  POST/student - {"student_id":3,"name":"teste teste","cpf":"33337890","phone":"34545653245","stature":"156","weight":"80"}
+2022-09-10T21:39:18.507Z [gymapi] error GET  - student is not defined
+2022-09-10T21:42:49.346Z [gymapi] info GET/student
+2022-09-10T22:00:27.398Z [gymapi] info GET/student/id
+2022-09-10T22:00:32.467Z [gymapi] info GET/student/id
+2022-09-10T22:29:51.336Z [gymapi] info DELETE/student/id
+2022-09-10T22:29:57.360Z [gymapi] info GET/student
+2022-09-10T22:49:28.284Z [gymapi] info  PUT/student - {"student_id":3,"name":"teste maiara Freitas","cpf":"33337890","phone":"34545653245","stature":"156","weight":"80"}
+2022-09-10T22:49:32.987Z [gymapi] info GET/student
+2022-09-11T17:04:10.843Z [gymapi] info  POST/activity - {"activity_id":1,"name":"posterior","description":"flexor 3x20"}
+2022-09-11T17:11:24.044Z [gymapi] info  POST/activity - {"activity_id":2,"name":"superior","description":"triceps 3x15"}
+2022-09-11T17:12:09.990Z [gymapi] info  POST/activity - {"activity_id":3,"name":"superior","description":"barra superior neutro 3x15"}
+2022-09-11T17:13:11.941Z [gymapi] info  POST/activity - {"activity_id":4,"name":"posterior","description":"levantamento pelvico 5x20"}
+2022-09-11T17:13:44.882Z [gymapi] info  POST/activity - {"activity_id":5,"name":"posterior","description":"panturrilha smit 2x20"}
+2022-09-11T17:13:51.124Z [gymapi] info GET/activity
+2022-09-11T17:15:13.612Z [gymapi] info GET/activity/id
+2022-09-11T17:15:21.041Z [gymapi] info GET/activity/id
+2022-09-11T17:15:47.920Z [gymapi] info  PUT/activity - {"activity_id":5,"name":"posterior","description":"panturrilha sentado 2x20"}
+2022-09-11T17:15:52.833Z [gymapi] info GET/activity
+2022-09-11T17:16:04.486Z [gymapi] info DELETE/activity/id
+2022-09-11T17:16:12.317Z [gymapi] info GET/activity
+2022-09-11T17:36:39.256Z [gymapi] info  POST/personal - {"personal_id":1,"name":"maromba silva da costa","cref":"33337890","phone":"34545653245","salary":"6,500"}
+2022-09-11T17:37:46.974Z [gymapi] info  POST/personal - {"personal_id":2,"name":"Matheus da Silva","cref":"45678890","phone":"999878034","salary":"4,500"}
+2022-09-11T17:38:40.410Z [gymapi] info  POST/personal - {"personal_id":3,"name":"Ricardo Pequeno","cref":"42345678","phone":"945645908","salary":"5,500"}
+2022-09-11T17:39:44.937Z [gymapi] info  POST/personal - {"personal_id":4,"name":"Mony Seacha","cref":"455677849009","phone":"95677689989","salary":"7.000"}
+2022-09-11T17:40:12.418Z [gymapi] info  POST/personal - {"personal_id":5,"name":"Camila Ferreira","cref":"66577849009","phone":"999889989","salary":"7.100"}
+2022-09-11T17:40:20.525Z [gymapi] info GET/personal
+2022-09-11T17:41:45.781Z [gymapi] error PUT  - Unexpected token , in JSON at position 129
+2022-09-11T17:42:20.355Z [gymapi] info  PUT/personal - {"personal_id":1,"name":"maromba silva da costa","cref":"33337890","phone":"34545653245","salary":"6.500"}
+2022-09-11T17:42:33.866Z [gymapi] info  PUT/personal - {"personal_id":2,"name":"Matheus da Silva","cref":"45678890","phone":"999878034","salary":"4.500"}
+2022-09-11T17:42:41.850Z [gymapi] info  PUT/personal - {"personal_id":3,"name":"Ricardo Pequeno","cref":"42345678","phone":"945645908","salary":"5.500"}
+2022-09-11T17:42:48.694Z [gymapi] info GET/personal
+2022-09-11T17:43:05.785Z [gymapi] info GET/personal/id
+2022-09-11T17:43:10.762Z [gymapi] info GET/personal/id
+2022-09-11T17:43:15.429Z [gymapi] info GET/personal/id
+2022-09-11T17:43:23.386Z [gymapi] info DELETE/personal/id
+2022-09-11T17:43:27.060Z [gymapi] info GET/personal
+2022-09-11T17:43:46.862Z [gymapi] info DELETE/personal/id
+2022-09-11T17:43:51.187Z [gymapi] info GET/personal
+2022-09-11T18:39:52.594Z [gymapi] error POST  - column "name" of relation "training" does not exist
+2022-09-11T18:42:55.140Z [gymapi] info  POST/training - {"training_id":1,"date":"2022-01-01T03:00:00.000Z","student_id":1,"activity_id":2,"personal_id":3}
+2022-09-11T19:07:51.614Z [gymapi] error POST  - insert or update on table "training" violates foreign key constraint "fk_activity"
+2022-09-11T19:08:20.932Z [gymapi] error POST  - insert or update on table "training" violates foreign key constraint "fk_students"
+2022-09-11T19:08:36.067Z [gymapi] info  POST/training - {"training_id":4,"date":"2022-02-04T03:00:00.000Z","student_id":1,"activity_id":2,"personal_id":2}
+2022-09-11T19:10:44.727Z [gymapi] info GET/training
+2022-09-11T19:23:26.526Z [gymapi] info  POST/training - {"training_id":5,"date":"2022-02-04T03:00:00.000Z","student_id":1,"activity_id":5,"personal_id":2}
+2022-09-11T19:23:36.936Z [gymapi] error POST  - The Activity not exist
+2022-09-11T19:23:49.126Z [gymapi] error POST  - The Student not exist
+2022-09-11T19:24:06.173Z [gymapi] error POST  - The Personal not exist
+2022-09-11T19:24:12.310Z [gymapi] error POST  - The Personal not exist
+2022-09-11T19:24:19.050Z [gymapi] info  POST/training - {"training_id":6,"date":"2022-06-07T03:00:00.000Z","student_id":1,"activity_id":2,"personal_id":2}
+2022-09-11T19:49:04.646Z [gymapi] info GET/training
+2022-09-11T19:49:45.262Z [gymapi] info GET/training
+2022-09-11T19:49:58.813Z [gymapi] info GET/training
+2022-09-11T19:50:08.226Z [gymapi] info GET/training
+2022-09-11T20:11:51.809Z [gymapi] info GET/training
+2022-09-11T20:13:30.220Z [gymapi] info GET/training
+2022-09-11T20:14:04.005Z [gymapi] info GET/training
+2022-09-11T20:17:22.556Z [gymapi] info GET/training
+2022-09-11T20:20:23.571Z [gymapi] info  POST/training - {"training_id":7,"date":"2022-06-07T03:00:00.000Z","student_id":3,"activity_id":2,"personal_id":2}
+2022-09-11T20:20:35.460Z [gymapi] info  POST/training - {"training_id":8,"date":"2022-06-07T03:00:00.000Z","student_id":3,"activity_id":1,"personal_id":2}
+2022-09-11T20:20:51.095Z [gymapi] error POST  - The Personal not exist
+2022-09-11T20:20:55.347Z [gymapi] info  POST/training - {"training_id":9,"date":"2022-09-03T03:00:00.000Z","student_id":3,"activity_id":1,"personal_id":3}

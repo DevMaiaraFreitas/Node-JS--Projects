@@ -1,0 +1,33 @@
+CREATE TABLE students (
+student_id SERIAL PRIMARY KEY,
+name VARCHAR NOT NULL,
+cpf VARCHAR NOT NULL,
+phone VARCHAR NOT NULL,
+stature VARCHAR,
+weight VARCHAR
+)
+
+CREATE TABLE activity (
+activity_id SERIAL PRIMARY KEY,
+name VARCHAR NOT NULL,
+description VARCHAR NOT NULL
+)
+
+CREATE TABLE personal (
+personal_id SERIAL PRIMARY KEY,
+name VARCHAR NOT NULL,
+cref VARCHAR NOT NULL,
+phone VARCHAR NOT NULL,
+salary VARCHAR NOT NULL
+)
+
+CREATE TABLE training (
+training_id SERIAL PRIMARY KEY,
+date DATE NOT NULL,
+student_id INT NOT NULL,
+activity_id INT NOT NULL,
+personal_id INT NOT NULL,
+CONSTRAINT fk_students FOREIGN (student_id) REFERENCES students (student_id),
+CONSTRAINT fk_activity FOREIGN (activity_id) REFERENCES activity (activity_id),
+CONSTRAINT fk_personal FOREIGN (personal_id) REFERENCES personal (personal_id)
+)
