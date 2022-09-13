@@ -1,0 +1,190 @@
+2022-07-26T22:56:38.794Z [storeapi] error POST  - Name, CPF, phone, email e address são obrigatorios
+2022-07-26T23:59:37.131Z [storeapi] error POST  - loggers is not defined
+2022-07-27T00:03:27.220Z [storeapi] error POST  - loggers is not defined
+2022-07-27T00:05:47.976Z [storeapi] error POST  - loggers is not defined
+2022-07-27T23:06:08.948Z [storeapi] error POST  - loggers is not defined
+2022-07-27T23:26:00.428Z [storeapi] error GET  - loggers is not defined
+2022-07-27T23:29:45.139Z [storeapi] error GET  - loggers is not defined
+2022-07-27T23:43:51.563Z [storeapi] info GET/ client 
+2022-07-27T23:44:22.749Z [storeapi] info GET/ client 
+2022-07-27T23:45:34.497Z [storeapi] info GET/ client/ id 
+2022-07-27T23:45:44.999Z [storeapi] info GET/ client/ id 
+2022-07-27T23:58:10.270Z [storeapi] error DELETE  - syntax error at or near "*"
+2022-07-27T23:59:18.069Z [storeapi] error DELETE  - syntax error at or near "*"
+2022-07-28T00:00:58.680Z [storeapi] error DELETE  - syntax error at or near "*"
+2022-07-28T00:01:51.142Z [storeapi] error DELETE  - syntax error at or near "*"
+2022-07-28T00:03:45.856Z [storeapi] info DELETE/ client/ id 
+2022-07-28T00:03:59.018Z [storeapi] info GET/ client 
+2022-07-28T00:28:37.500Z [storeapi] info  POST/ client - {"client_id":5,"name":"tiaaa","cpf":"9934345345499","phone":"10324101010143201","email":"veio@gmail.com","address":"sto amaro"}
+2022-07-28T00:30:47.883Z [storeapi] info  PUT / client / update - {"client_id":5,"name":"tita","cpf":"99994232499","phone":"1343001","email":"veio_tita@gmail.com","address":"sto amaro"}
+2022-07-28T00:30:57.031Z [storeapi] info GET/ client 
+2022-07-28T01:03:00.039Z [storeapi] info  POST/ supplier - {"supplier_id":1,"name":"fornecedor 1","cnpj":"99343453454990001-10","phone":"10324101010143201","email":"fornecedor1@gmail.com","address":"floripa"}
+2022-07-28T01:05:28.241Z [storeapi] error PUT  - Supplier ID, Name, CNPJ, phone, email e address são obrigatorios
+2022-07-28T01:05:43.840Z [storeapi] error PUT  - Supplier ID, Name, CNPJ, phone, email e address são obrigatorios
+2022-07-28T01:05:52.197Z [storeapi] info  PUT / supplier / update - {"supplier_id":1,"name":"fornecedor eeletronicos","cnpj":"99343453454990001-10","phone":"10324101010143201","email":"fornecedoreletronicos@gmail.com","address":"floripa"}
+2022-07-30T17:00:02.660Z [storeapi] info  POST/ product - {"product_id":1,"name":"bicicleta","description":"bicicleta triban","value":"4000","stock":100,"supplier_id":1}
+2022-07-30T17:03:28.346Z [storeapi] info GET/ product/ id 
+2022-07-30T17:03:43.226Z [storeapi] info GET/ product 
+2022-07-30T17:07:06.547Z [storeapi] info  POST/ product - {"product_id":2,"name":"notebook","description":"notebook dell","value":"8000","stock":80,"supplier_id":1}
+2022-07-30T17:07:33.218Z [storeapi] info  POST/ product - {"product_id":3,"name":"tv","description":"tv samsung 32","value":"1000","stock":810,"supplier_id":1}
+2022-07-30T17:07:53.867Z [storeapi] info  POST/ product - {"product_id":4,"name":"tv","description":"tv phico 62","value":"10000","stock":80,"supplier_id":1}
+2022-07-30T17:08:29.859Z [storeapi] info  POST/ supplier - {"supplier_id":2,"name":"fornecedor2","cnpj":"9934341-10","phone":"103240143201","email":"fornecedor2@gmail.com","address":"sto.antonio"}
+2022-07-30T17:08:41.110Z [storeapi] info  POST/ supplier - {"supplier_id":3,"name":"fornecedor3","cnpj":"9934341-10","phone":"103240143201","email":"fornecedor3@gmail.com","address":"sto.antonio"}
+2022-07-30T17:08:48.681Z [storeapi] info  POST/ supplier - {"supplier_id":4,"name":"fornecedor4","cnpj":"9934341-10","phone":"103240143201","email":"fornecedor4@gmail.com","address":"sto.antonio"}
+2022-07-30T17:20:40.393Z [storeapi] error POST  - O supplier id informado não existe!
+2022-07-30T17:55:47.362Z [storeapi] info GET/ client 
+2022-07-30T17:56:04.243Z [storeapi] error POST  - O supplier id informado não existe!
+2022-07-30T17:56:30.573Z [storeapi] error POST  - O supplier id informado não existe!
+2022-07-30T17:56:46.294Z [storeapi] error POST  - O supplier id informado não existe!
+2022-07-30T17:58:09.155Z [storeapi] info GET/ product 
+2022-07-30T17:58:33.595Z [storeapi] info GET/ client 
+2022-07-30T17:58:58.765Z [storeapi] error POST  - O supplier id informado não existe!
+2022-07-30T18:00:40.882Z [storeapi] error POST  - date/time field value out of range: "30/07/2022"
+2022-07-30T18:01:32.504Z [storeapi] info  POST/ sale - {"sale_id":1,"value":"3760","date":"2000-01-01T02:00:00.000Z","client_id":2,"product_id":1}
+2022-07-30T18:03:49.394Z [storeapi] error POST  - date/time field value out of range: "21/11/2010"
+2022-07-30T18:03:53.984Z [storeapi] error POST  - date/time field value out of range: "21/11/2010"
+2022-07-30T18:04:00.797Z [storeapi] error POST  - date/time field value out of range: "21/11/2010"
+2022-07-30T18:04:31.882Z [storeapi] error POST  - Unexpected token / in JSON at position 29
+2022-07-30T18:04:38.483Z [storeapi] error POST  - date/time field value out of range: "21/11/2010"
+2022-07-30T18:05:07.049Z [storeapi] info  POST/ sale - {"sale_id":2,"value":"3500","date":"2000-01-01T02:00:00.000Z","client_id":2,"product_id":1}
+2022-07-30T18:05:20.369Z [storeapi] info  POST/ sale - {"sale_id":3,"value":"3500","date":"2000-11-01T02:00:00.000Z","client_id":2,"product_id":1}
+2022-07-30T18:05:27.844Z [storeapi] info  POST/ sale - {"sale_id":4,"value":"3500","date":"2000-11-01T02:00:00.000Z","client_id":2,"product_id":2}
+2022-07-30T18:05:37.131Z [storeapi] info  POST/ sale - {"sale_id":5,"value":"3500","date":"2000-11-11T02:00:00.000Z","client_id":2,"product_id":3}
+2022-07-30T18:05:52.579Z [storeapi] error POST  - insert or update on table "sales" violates foreign key constraint "fk_clients"
+2022-07-30T18:06:06.277Z [storeapi] info  POST/ sale - {"sale_id":7,"value":"3300","date":"2010-11-11T02:00:00.000Z","client_id":3,"product_id":3}
+2022-07-30T18:17:43.724Z [storeapi] error POST  -  o produto não existe!
+2022-07-30T18:17:55.850Z [storeapi] error POST  -  o cliente não existe!
+2022-07-30T18:57:39.452Z [storeapi] info GET/ product 
+2022-07-30T18:59:29.173Z [storeapi] error POST  -  o cliente não existe!
+2022-07-30T18:59:35.353Z [storeapi] error POST  -  o cliente não existe!
+2022-07-30T18:59:44.605Z [storeapi] error POST  -  o cliente não existe!
+2022-07-30T18:59:59.330Z [storeapi] info GET/ product 
+2022-07-30T19:01:05.206Z [storeapi] error POST  -  o produto informado esta indisponivel
+2022-07-30T19:01:26.284Z [storeapi] info GET/ product 
+2022-07-30T19:01:55.533Z [storeapi] error POST  -  o produto informado esta indisponivel
+2022-07-30T19:02:03.088Z [storeapi] error POST  -  o produto informado esta indisponivel
+2022-07-30T19:02:09.934Z [storeapi] info GET/ product 
+2022-07-30T19:02:32.321Z [storeapi] info GET/ client 
+2022-07-30T19:02:39.759Z [storeapi] error POST  -  o produto informado esta indisponivel
+2022-07-30T19:03:39.042Z [storeapi] error POST  -  o produto informado esta indisponivel
+2022-07-30T19:03:53.064Z [storeapi] info GET/ product/ id 
+2022-07-30T19:04:14.921Z [storeapi] info GET/ client/ id 
+2022-07-30T19:04:44.070Z [storeapi] error POST  -  o produto informado esta indisponivel
+2022-07-30T19:06:52.160Z [storeapi] info  POST/ sale - {"sale_id":8,"value":"300","date":"2010-11-11T02:00:00.000Z","client_id":2,"product_id":2}
+2022-07-30T19:07:07.216Z [storeapi] info GET/ product 
+2022-07-30T20:17:50.066Z [storeapi] info GET/ product 
+2022-07-30T20:18:44.052Z [storeapi] info GET/ product 
+2022-07-30T20:18:52.689Z [storeapi] info GET/ sale/ id 
+2022-07-30T20:19:07.630Z [storeapi] error GET  - syntax error at or near "$1"
+2022-07-30T20:19:13.142Z [storeapi] info GET/ sale/ id 
+2022-07-30T20:19:22.933Z [storeapi] info GET/ product 
+2022-07-30T20:26:47.754Z [storeapi] info GET/ product 
+2022-07-30T20:28:42.696Z [storeapi] info GET/ sale 
+2022-08-02T23:33:09.826Z [storeapi] info GET/ client 
+2022-08-02T23:33:39.235Z [storeapi] info GET/ client/ id 
+2022-08-02T23:34:10.102Z [storeapi] error PUT  - WHERE parameter "client_id" has invalid "undefined" value
+2022-08-02T23:34:18.073Z [storeapi] error PUT  - Client ID, Name, CPF, phone, email e address são obrigatorios
+2022-08-02T23:34:40.984Z [storeapi] info  POST/ client - {"clientId":6,"name":"tifsfsdaaa","cpf":"99343dsfsd45345499","phone":"10324fsfsd101010143201","email":"veio@fsfsgmail.com","address":"stfsfso amaro"}
+2022-08-02T23:36:37.503Z [storeapi] info  PUT / client / update - null
+2022-08-02T23:37:10.159Z [storeapi] info GET/ client/ id 
+2022-08-02T23:37:22.594Z [storeapi] info GET/ client 
+2022-08-02T23:37:33.897Z [storeapi] info GET/ client/ id 
+2022-08-02T23:38:04.861Z [storeapi] info GET/ client 
+2022-08-02T23:38:31.339Z [storeapi] info DELETE/ client/ id 
+2022-08-02T23:38:35.491Z [storeapi] info GET/ client 
+2022-08-03T12:38:22.684Z [storeapi] error GET  - Product is not defined
+2022-08-03T12:38:52.413Z [storeapi] error POST  - Supplier is not defined
+2022-08-03T12:40:23.880Z [storeapi] error GET  - Product is not defined
+2022-08-03T12:43:04.131Z [storeapi] info GET/ product 
+2022-08-03T12:43:17.196Z [storeapi] info GET/ supplier/ id 
+2022-08-03T12:44:45.160Z [storeapi] info GET/ client 
+2022-08-03T12:44:51.526Z [storeapi] info GET/ client/ id 
+2022-08-03T13:36:10.010Z [storeapi] info GET/ sale 
+2022-08-03T14:13:14.362Z [storeapi] info GET/ sale/ id 
+2022-08-03T14:13:26.852Z [storeapi] info GET/ sale/ id 
+2022-08-03T14:13:35.511Z [storeapi] info GET/ sale 
+2022-08-03T14:40:42.664Z [storeapi] info GET/ sale 
+2022-08-04T23:24:40.245Z [storeapi] info  POST /product/info - {"productId":3,"category":"tv","with":"55cm","height":"235cm","depth":"35cm","reviews":[],"_id":"62ec55387cb9d50ae6832704"}
+2022-08-04T23:57:26.777Z [storeapi] info  PUT /product/info - {"productId":3,"category":"Smart TV","with":"55cm","height":"235cm","depth":"35cm","reviews":[]}
+2022-08-05T00:09:10.972Z [storeapi] info GET/ product/ id 
+2022-08-06T18:30:28.931Z [storeapi] info GET/ product/info
+2022-08-06T18:31:13.966Z [storeapi] info GET/ product/info
+2022-08-06T20:23:12.291Z [storeapi] error POST  - Parameter "obj" to Document() must be an object, got function model(doc, fields, skipId) {
+      model.hooks.execPreSync('createModel', doc);
+      if (!(this instanceof model)) {
+        return new model(doc, fields, skipId);
+      }
+      const discriminatorKey = model.schema.options.discriminatorKey;
+
+      if (model.discriminators == null || doc == null || doc[discriminatorKey] == null) {
+        Model.call(this, doc, fields, skipId);
+        return;
+      }
+
+      // If discriminator key is set, use the discriminator instead (gh-7586)
+      const Discriminator = model.discriminators[doc[discriminatorKey]] ||
+        getDiscriminatorByValue(model.discriminators, doc[discriminatorKey]);
+      if (Discriminator != null) {
+        return new Discriminator(doc, fields, skipId);
+      }
+
+      // Otherwise, just use the top-level model
+      Model.call(this, doc, fields, skipId);
+    }
+2022-08-06T20:23:28.775Z [storeapi] error POST  - Parameter "obj" to Document() must be an object, got function model(doc, fields, skipId) {
+      model.hooks.execPreSync('createModel', doc);
+      if (!(this instanceof model)) {
+        return new model(doc, fields, skipId);
+      }
+      const discriminatorKey = model.schema.options.discriminatorKey;
+
+      if (model.discriminators == null || doc == null || doc[discriminatorKey] == null) {
+        Model.call(this, doc, fields, skipId);
+        return;
+      }
+
+      // If discriminator key is set, use the discriminator instead (gh-7586)
+      const Discriminator = model.discriminators[doc[discriminatorKey]] ||
+        getDiscriminatorByValue(model.discriminators, doc[discriminatorKey]);
+      if (Discriminator != null) {
+        return new Discriminator(doc, fields, skipId);
+      }
+
+      // Otherwise, just use the top-level model
+      Model.call(this, doc, fields, skipId);
+    }
+2022-08-06T20:24:58.781Z [storeapi] error POST  - Parameter "obj" to Document() must be an object, got function model(doc, fields, skipId) {
+      model.hooks.execPreSync('createModel', doc);
+      if (!(this instanceof model)) {
+        return new model(doc, fields, skipId);
+      }
+      const discriminatorKey = model.schema.options.discriminatorKey;
+
+      if (model.discriminators == null || doc == null || doc[discriminatorKey] == null) {
+        Model.call(this, doc, fields, skipId);
+        return;
+      }
+
+      // If discriminator key is set, use the discriminator instead (gh-7586)
+      const Discriminator = model.discriminators[doc[discriminatorKey]] ||
+        getDiscriminatorByValue(model.discriminators, doc[discriminatorKey]);
+      if (Discriminator != null) {
+        return new Discriminator(doc, fields, skipId);
+      }
+
+      // Otherwise, just use the top-level model
+      Model.call(this, doc, fields, skipId);
+    }
+2022-08-06T20:27:42.263Z [storeapi] error POST  - productInfo is not a constructor
+2022-08-06T20:27:56.755Z [storeapi] error POST  - productInfo is not a constructor
+2022-08-06T20:33:28.318Z [storeapi] error POST  - productInfo is not a constructor
+2022-08-06T20:36:08.955Z [storeapi] error POST  - productInfo is not a constructor
+2022-08-06T20:51:02.675Z [storeapi] info  POST /product/info - {"productId":3,"category":"tv","with":"55cm","height":"235cm","depth":"35cm","reviews":[]}
+2022-08-06T20:51:48.478Z [storeapi] info  POST /product/info - {"productId":12,"category":"tv","with":"55cm","height":"235cm","depth":"35cm","reviews":[]}
+2022-08-06T20:54:19.689Z [storeapi] info  POST /product/info - {"productId":12,"category":"tv","with":"55cm","height":"235cm","depth":"35cm","reviews":[]}
+2022-08-06T20:55:06.827Z [storeapi] info  PUT /product/info - {"productId":3,"category":"Smart TV","with":"55cm","height":"235cm","depth":"35cm","reviews":[]}
+2022-08-06T20:55:19.450Z [storeapi] error POST  - O supplier id informado não existe!
+2022-08-06T20:55:27.437Z [storeapi] error POST  - Name, desciption, value, stock e supplier id são obrigatorios
+2022-08-06T20:55:48.063Z [storeapi] info POST/ product/review
+2022-08-06T20:55:53.787Z [storeapi] info GET/ product 
+2022-08-06T20:56:13.367Z [storeapi] info  POST /product/info - {"productId":12,"category":"tv","with":"55cm","height":"2345cm","depth":"35cm","reviews":[]}
